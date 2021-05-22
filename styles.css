@@ -22,7 +22,12 @@ form {
   max-width: 500px;
   margin: auto;
 }
+form > div {
+  margin-bottom: 0.8em;
+  position: relative;
+}
 
+/* Bagian Input */
 input {
   color: #333;
   display: block;
@@ -67,11 +72,7 @@ input.invalid ~ p {
   color: crimson;
 }
 
-form > div {
-  margin-bottom: 0.8em;
-  position: relative;
-}
-
+/* Bagian Button submit */
 div > button {
   color: #333;
   display: block;
@@ -93,6 +94,7 @@ div > button:hover {
   outline: none;
 }
 
+/* Bagian Popup */
 .popup {
   display: none;
   position: fixed;
